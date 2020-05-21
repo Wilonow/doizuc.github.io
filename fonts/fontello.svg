@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="home" unicode="&#xe800;" d="M786 296v-267q0-15-11-25t-25-11h-214v214h-143v-214h-214q-15 0-25 11t-11 25v267q0 1 0 2t0 2l321 264 321-264q1-1 1-4z m124 39l-34-41q-5-5-12-6h-2q-7 0-12 3l-386 322-386-322q-7-4-13-3-7 1-12 6l-35 41q-4 6-3 13t6 12l401 334q18 15 42 15t43-15l136-113v108q0 8 5 13t13 5h107q8 0 13-5t5-13v-227l122-102q6-4 6-12t-4-13z" horiz-adv-x="928.6" />
+
+<glyph glyph-name="camera" unicode="&#xe801;" d="M536 475q66 0 113-47t47-114-47-113-113-47-114 47-47 113 47 114 114 47z m393 232q59 0 101-42t41-101v-500q0-59-41-101t-101-42h-786q-59 0-101 42t-42 101v500q0 59 42 101t101 42h125l28 76q11 27 39 47t58 20h286q29 0 57-20t39-47l29-76h125z m-393-643q103 0 176 74t74 176-74 177-176 73-177-73-73-177 73-176 177-74z" horiz-adv-x="1071.4" />
+
+<glyph glyph-name="award" unicode="&#xe802;" d="M256 357q-42 91-42 207h-143v-53q0-44 53-91t132-63z m601 154v53h-143q0-116-41-207 79 16 131 63t53 91z m72 71v-71q0-40-24-80t-62-73-97-54-120-25q-23-30-53-53-21-19-29-40t-8-50q0-30 17-51t54-21q42 0 75-25t32-64v-36q0-8-5-13t-13-5h-464q-8 0-13 5t-5 13v36q0 39 33 64t74 25q38 0 55 21t17 51q0 28-8 50t-29 40q-30 23-53 53-64 3-121 25t-96 54-63 73-23 80v71q0 23 16 38t38 16h160v53q0 37 27 63t63 27h321q37 0 63-27t26-63v-53h161q22 0 38-16t16-38z" horiz-adv-x="928.6" />
+
+<glyph glyph-name="info" unicode="&#xf129;" d="M357 100v-71q0-15-10-25t-26-11h-285q-15 0-25 11t-11 25v71q0 15 11 25t25 11h35v214h-35q-15 0-25 11t-11 25v71q0 15 11 25t25 11h214q15 0 25-11t11-25v-321h35q15 0 26-11t10-25z m-71 643v-107q0-15-11-25t-25-11h-143q-14 0-25 11t-11 25v107q0 14 11 25t25 11h143q15 0 25-11t11-25z" horiz-adv-x="357.1" />
+</font>
+</defs>
+</svg>

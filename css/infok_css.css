@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?60620631');
+  src: url('../fonts/fontello.eot?60620631#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?60620631') format('woff2'),
+       url('../fonts/fontello.woff?60620631') format('woff'),
+       url('../fonts/fontello.ttf?60620631') format('truetype'),
+       url('../fonts/fontello.svg?60620631#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  width: 16px;
+  text-align: center;
+  margin: 0 10px 0 0;  
+}
+.icon-camera:before { content: '\e801'; }
+.icon-champ:before { content: '\e802'; }
+.icon-home:before { content: '\e800'; }
+.icon-mail:before { content: '\f0e0'; }
+.icon-info:before { content: '\f129'; }
+*{
+	box-sizing: border-box;
+}
+body {
+	background: url('../pics/body1.jpg') no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+}
+nav{
+	background: rgba(0,0,0,.5);
+	margin: 0;
+	position: stickey;
+	top: 0;
+}
+nav ul {
+	margin:0 px 100 px;
+	padding:0;
+	list-style: none;
+}
+nav ul li {
+	float: right;
+}
+nav::after {
+	content:'';
+	clear: both;
+	display: table;
+}
+nav a { 
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 1.5rem 1rem;
+}
+nav a:hover{
+	background: rgba(1,1,1,.8)
+}
+.navigation li:first-child {
+	padding: 1.5rem 1rem;
+	color: rgba(255,255,255,.5)
+}
+.mobile-menu-buttom {
+	width: 50px;
+	display: block;
+	float: right;
+	padding: 10px;
+	margin: 10px 5px 0 0;
+	display: none;
+}
+.mobile-menu-buttom span{
+	display: block;
+	height: 4px;
+	background: white;
+	margin: 0 0 5px 0;
+	border-radius: 2px;
+}
+.mobile-menu-buttom span:last-of-type {
+	margin: 0
+}
+.mobile-menu-buttom + input[type="checkbox"] {
+	display: none
+}
+
+.mobile-menu-buttom + input[type="checkbox"]:checked ~ .navigation li:not(:first-child) {
+	display: block
+}
+
+@media(max-width:800px) {
+	.mobile-menu-buttom {
+		display: block;
+	}
+	.navigation li:not(:first-child){
+		display: none;
+	}
+	.navigation li{
+		float: none;
+		border-top: 1px solid rgba(255,255,255,.1);
+	}
+	.navigation a{
+		padding: 1rem;
+	}
+}
+.doboz{ 
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}	
+main {
+	width: 80%;
+	padding: 30px
+}
+main p {
+	line-height: 30px
+}
+.balra {
+	float: right;
+	margin: 0px -300px 100px 0
+}
